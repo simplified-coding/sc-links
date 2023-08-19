@@ -38,8 +38,6 @@ app.get("/:slug", (req, res) => {
         res.redirect("/404");
       }
     });
-
-  //   res.end("SLUG");
 });
 
 app.listen(process.env.PORT || 3030, () => {
