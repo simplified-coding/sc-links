@@ -5,33 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SC Links</title>
     <link href="/styles/built.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap">
   </head>
   <body>
+    <style>
+        * {
+            background-color: #4b2265;
+            color: #fff;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 0 20px;
+        }
+
+        main > div {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        main > div > p {
+          margin-top: 20px;
+        }
+    </style>
     <main>
       <div>
         <h1 class="text-3xl">
-          <strong class="underline">Simplified Coding</strong> Links
+          Simplified Coding Link Manager
         </h1>
-        <br />
         <p>
-          This website houses the Simplified Coding
-          <i class="underline">Link Manager</i>.
+          Welcome to the Simplified Coding Link Manager.
+          This website itself doesn't have much around here,
+          but it's the home for all kinds of links that Simplified Coding uses.
+          <br /><br />
+          Try using it, by typing a <code><strong>slug</strong></code> after
+          <strong>https://links.simplifiedcoding.org/</strong>.
           <br />
-          Try using it, but typing a <code><strong>slug</strong></code> after
-          the <strong>URL</strong>.
-          <br />
-          i.e. <code>https://links.simplifiedcoding.org/discord</code> will
-          <strong>launch our discord</strong>.
+          For example, <code>https://links.simplifiedcoding.org/discord</code> will redirect you to an invitation for our Discord server.
         </p>
-        <br />
         <p>
-          psss. View the
+          You can check out our
           <a
             href="https://airtable.com/appWZufUxbNpde7X9/shr0Z7Y2yL8ZwntRG"
             class="underline text-blue-500"
             target="_blank"
-            >links table</a
-          >!
+            >Airtable</a
+          >, where you can find all the slugs and their corresponding websites they redirect to.
         </p>
       </div>
     </main>
